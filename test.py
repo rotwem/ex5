@@ -1,5 +1,6 @@
 def count_word_in_string(word, search_in):
     """receives a word and a string and returns the number of appearances of the word in the string"""
+    #This is a big change
     count = 1
     new_search = search_in[search_in.find(word) + len(word) - 1:]
     while len(word) <= len(new_search):
